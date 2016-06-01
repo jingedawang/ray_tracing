@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/6/1 20:39:04。
+     1>项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\开发资料\opencv\opencv\build\x64\vc14\..\..\include" /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.h(14): warning C4005: “INFINITY”: 宏重定义
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(78): note: 参见“INFINITY”的前一个定义
+     1>e:\开发资料\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\开发资料\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\开发资料\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\开发资料\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\c++projects\ray_tracing\ray_tracing\main.cpp(15): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\c++projects\ray_tracing\ray_tracing\main.cpp(34): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>d:\c++projects\ray_tracing\ray_tracing\main.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c++Projects\ray_tracing\x64\Debug\ray_tracing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\开发资料\opencv\opencv\build\x64\vc14\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\c++Projects\ray_tracing\x64\Debug\ray_tracing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c++Projects\ray_tracing\x64\Debug\ray_tracing.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\raytracing.obj
+         x64\Debug\showpicture.obj
+         ray_tracing.vcxproj -> D:\c++Projects\ray_tracing\x64\Debug\ray_tracing.exe
+     1>已完成生成项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.55

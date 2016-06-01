@@ -1,0 +1,23 @@
+﻿生成启动时间为 2016/5/28 15:17:48。
+     1>项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"E:\开发资料\opencv\opencv\build\x64\vc14\..\..\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt raytracing.cpp
+         raytracing.cpp
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.h(14): warning C4005: “INFINITY”: 宏重定义
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\math.h(78): note: 参见“INFINITY”的前一个定义
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(79): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(91): warning C4305: “参数”: 从“double”到“const float”截断
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(102): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(157): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(163): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.cpp(164): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c++Projects\ray_tracing\Debug\ray_tracing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\开发资料\opencv\opencv\build\x64\vc14\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\c++Projects\ray_tracing\Debug\ray_tracing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c++Projects\ray_tracing\Debug\ray_tracing.lib" /MACHINE:X86 Debug\main.obj
+         Debug\raytracing.obj
+         Debug\showpicture.obj
+     1>opencv_world310d.lib(opencv_world310d.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.45

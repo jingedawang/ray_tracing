@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/5/30 15:24:35。
+     1>项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\开发资料\opencv\opencv\build\x64\vc14\..\..\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp raytracing.cpp
+         main.cpp
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.h(14): warning C4005: “INFINITY”: 宏重定义
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(78): note: 参见“INFINITY”的前一个定义
+     1>E:\开发资料\opencv\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\开发资料\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\开发资料\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\开发资料\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>main.cpp(9): warning C4305: “参数”: 从“double”到“float”截断
+     1>main.cpp(32): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         raytracing.cpp
+     1>d:\c++projects\ray_tracing\ray_tracing\raytracing.h(14): warning C4005: “INFINITY”: 宏重定义
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\math.h(78): note: 参见“INFINITY”的前一个定义
+     1>raytracing.cpp(203): warning C4305: “初始化”: 从“double”到“float”截断
+     1>raytracing.cpp(215): warning C4305: “参数”: 从“double”到“const float”截断
+     1>raytracing.cpp(226): warning C4305: “初始化”: 从“double”到“float”截断
+     1>raytracing.cpp(266): warning C4305: “参数”: 从“double”到“const float”截断
+     1>raytracing.cpp(285): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>raytracing.cpp(291): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>raytracing.cpp(292): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\c++Projects\ray_tracing\x64\Release\ray_tracing.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\开发资料\opencv\opencv\build\x64\vc14\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\c++Projects\ray_tracing\x64\Release\ray_tracing.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\c++Projects\ray_tracing\x64\Release\ray_tracing.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\raytracing.obj
+         x64\Release\showpicture.obj
+         正在生成代码
+         16 of 242 functions ( 6.6%) were compiled, the rest were copied from previous compilation.
+           6 functions were new in current compilation
+           6 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         ray_tracing.vcxproj -> D:\c++Projects\ray_tracing\x64\Release\ray_tracing.exe
+     1>已完成生成项目“D:\c++Projects\ray_tracing\ray_tracing\ray_tracing.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.89
